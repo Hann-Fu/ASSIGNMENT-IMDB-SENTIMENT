@@ -110,7 +110,7 @@ To make the review process easier, I’ve provided detailed descriptions of each
 
 ## Build and Run Instructions
 
-1. **Change the .env.template file to .env, fill the openai api key(optional)**
+1. **Change the .env.template file to .env , fill the openai api key(optional)**
 
 2. **Navigate to the project root directory** (where the Dockerfile is located):
    ```bash
