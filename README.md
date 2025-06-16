@@ -90,11 +90,11 @@ To make the review process easier, I’ve provided detailed descriptions of each
 
 * Implement a LangChain LLM approach with structured output. Add endpoints to the API and test carefully.
 
-11. **Public Data Collection & Testing**
+11. **Public Data Collection & Testing & Evaluation**
 
 * Collect recent reviews from the internet, use ChatGPT for labeling.
-* Test BERT and Baseline model approaches with this new data.
-* 
+* Evaluate BERT and Baseline model approaches with this new data through endpoint.
+* Write a short report about the performance, latency, consideration and trade off.
 
 12. **Model Degradation and Data Drift Slide**
 
