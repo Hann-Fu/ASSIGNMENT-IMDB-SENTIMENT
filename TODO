@@ -1,0 +1,6 @@
+# *New Features
+# 2. Draw the system architecture design of data drift and model degradation, auto retrain/ redeploy pipeline
+
+
+# * Delete openai api key in .env
+

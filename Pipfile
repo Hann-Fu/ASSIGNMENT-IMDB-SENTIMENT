@@ -1,0 +1,43 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+wordcloud = "*"
+scikit-learn = "*"
+nltk = "*"
+bs4 = "*"
+textblob = "*"
+symspellpy = "*"
+emoji = "*"
+pyspellchecker = "*"
+pydantic = "*"
+uvicorn = "*"
+joblib = "*"
+fastapi = {extras = ["standard"], version = "*"}
+loguru = "*"
+kagglehub = "*"
+transformers = "*"
+torch = {version = "*", index = "pytorch-cpu"}
+torchvision = {version = "*", index = "pytorch-cpu"}
+torchaudio = {version = "*", index = "pytorch-cpu"}
+accelerate = "*"
+langchain = "*"
+langchain-openai = "*"
+huggingface-hub = "*"
+openai = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
