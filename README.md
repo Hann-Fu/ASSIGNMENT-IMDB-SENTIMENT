@@ -5,7 +5,7 @@
 This project provide 3 restful endpoints with different approaches(TF-IDF, Bert, LLM) that determines whether a movie review expresses a positive or negative sentiment, the models(except LLM) were trained on "IMDb Dataset of 50K Movie Reviews".
 The project is implemented using Python, Scikit-learn, PyTorch, LangChain, and FastAPI, with containerization via Docker.
 
-Deliverables:  
+**Deliverables:**   
 1. The project **source code** under ./src    
 2. Unit tests **pytest** under ./tests  
 3. Preprocessing, visualization, training precess **jupyter notebooks** under ./z_model_development  
