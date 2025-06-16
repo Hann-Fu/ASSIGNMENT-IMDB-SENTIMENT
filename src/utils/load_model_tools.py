@@ -61,14 +61,14 @@ def load_bert_model() -> tuple:
     # Force CPU usage
     torch.set_default_device('cpu')
     
-    # Get the model repository ID
-    model_repo_id = download_bert_model_from_hub()
+    # Download the model and get its cache path
+    model_path = download_bert_model_from_hub()
     
     try:
-        logger.info(f"Loading DistilBERT model from Hugging Face cache: {model_repo_id}")
-        tokenizer = AutoTokenizer.from_pretrained(model_repo_id)
+        logger.info(f"Loading DistilBERT model from local cache: {model_path}")
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = AutoModelForSequenceClassification.from_pretrained(
-            model_repo_id,
+            model_path,
             device_map="cpu",  # Force CPU usage
             torch_dtype=torch.float32  # Use float32 for CPU
         )
@@ -83,6 +83,6 @@ def load_bert_model() -> tuple:
         return model, tokenizer
         
     except Exception as e:
-        logger.error(f"Failed to load DistilBERT model from {model_repo_id}: {e}")
+        logger.error(f"Failed to load DistilBERT model from {model_path}: {e}")
         raise RuntimeError(f"Failed to load DistilBERT model: {e}")
 

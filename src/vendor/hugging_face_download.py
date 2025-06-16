@@ -1,4 +1,4 @@
-from huggingface_hub import hf_hub_download
+from huggingface_hub import hf_hub_download, snapshot_download
 from loguru import logger
 from dotenv import load_dotenv
 import os
@@ -6,16 +6,21 @@ load_dotenv()
 
 def download_bert_model_from_hub() -> str:
     """
-    Returns the repository ID for the DistilBERT model.
-    The transformers library will handle downloading and caching automatically.
+    Downloads the DistilBERT model snapshot from Hugging Face Hub and returns its cache path.
 
     Returns:
-        str: The repository ID of the model.
+        str: The cache path to the model snapshot.
     """
     repo_id = os.getenv('BERT_MODEL_REPO_ID', 'protostarss/distilbert_imdb_full')
-    logger.info(f"Using DistilBERT model from Hugging Face Hub: '{repo_id}'")
+    logger.info(f"Downloading DistilBERT model from Hugging Face Hub: '{repo_id}' to cache...")
     
-    return repo_id
+    try:
+        model_cache_path = snapshot_download(repo_id=repo_id)
+        logger.info(f"DistilBERT model snapshot cached at: {model_cache_path}")
+        return model_cache_path
+    except Exception as e:
+        logger.error(f"Failed to download DistilBERT model snapshot from Hub: {e}")
+        raise
 
 def download_tfidf_model_from_hub() -> tuple[str, str]:
     """
