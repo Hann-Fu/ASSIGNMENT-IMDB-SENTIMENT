@@ -28,7 +28,7 @@ The **second stage** tested the **deployed model** through **containerized endpo
 
 ## Point 4: API Serving
 
-The source code under `.\src`
+The source code under `src\`
 For testing the api, I wrote several examples, check the last section of `api_documentation.md`  
 
 ## Point 5: Containerization
