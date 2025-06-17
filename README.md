@@ -103,7 +103,7 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
 # How to run the service
 
 ## Prerequisites
-- Docker installed on your system
+- Docker installed and activated on computer
 - Port 8000 available on your machine
 - An openai api key if use the endpoint predict/llm (Optional), add it to .env
 
