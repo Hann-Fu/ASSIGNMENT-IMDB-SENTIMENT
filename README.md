@@ -9,7 +9,7 @@ The project is implemented using Python, Scikit-learn, PyTorch, LangChain, and F
 
 1. The project **source code** under `src/` and **unit tests** under `tests/`
 2. Preprocessing, visualization, training process **jupyter notebooks** under `z_model_development/`
-3. A **dockerfile** and **run** instructions in `README.md` last section
+3. A **Dockerfile** and **run** instructions in `README.md` last section
 4. An **api documentation** `api_documentation.md` or run the service and check the **FastAPI auto-gen** doc
 5. **Bonus** task's conceptual implementations, **design diagram** under `z-bonus/`
 6. **Model's parameter** were uploaded to HuggingFace: [https://huggingface.co/protostarss](https://huggingface.co/protostarss)

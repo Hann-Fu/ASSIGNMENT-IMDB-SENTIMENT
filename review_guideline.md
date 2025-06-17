@@ -33,7 +33,7 @@ For testing the api, I wrote several examples, check the last section of `api_do
 
 ## Point 5: Containerization
 
-**dockerfile**
+**Dockerfile**
 The instructions are in the last section of `README.md`  
 
 ## Point 6: Documentation
