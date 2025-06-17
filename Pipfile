@@ -9,23 +9,15 @@ url = "https://download.pytorch.org/whl/cpu"
 verify_ssl = true
 
 [packages]
-pandas = "*"
-matplotlib = "*"
-seaborn = "*"
-wordcloud = "*"
-scikit-learn = "*"
 nltk = "*"
 bs4 = "*"
 textblob = "*"
-symspellpy = "*"
 emoji = "*"
-pyspellchecker = "*"
 pydantic = "*"
 uvicorn = "*"
 joblib = "*"
 fastapi = {extras = ["standard"], version = "*"}
 loguru = "*"
-kagglehub = "*"
 transformers = "*"
 torch = {version = "*", index = "pytorch-cpu"}
 torchvision = {version = "*", index = "pytorch-cpu"}
@@ -35,6 +27,7 @@ langchain = "*"
 langchain-openai = "*"
 huggingface-hub = "*"
 openai = "*"
+scikit-learn = "*"
 
 [dev-packages]
 ipykernel = "*"

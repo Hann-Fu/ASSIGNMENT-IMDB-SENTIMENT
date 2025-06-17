@@ -1,12 +1,11 @@
 import string
-import pandas as pd
 import re
 import nltk
 from nltk.corpus import stopwords 
 from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from bs4 import BeautifulSoup
-from spellchecker import SpellChecker
+# from spellchecker import SpellChecker
 import emoji
 # Import chat-words
 from ml.tfidfrl.chatword import chat_words
