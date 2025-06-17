@@ -7,16 +7,16 @@ The project is implemented using Python, Scikit-learn, PyTorch, LangChain, and F
 
 **Deliverables:**
 
-1. The project **source code** under `./src` and **unit tests** under `./tests`
-2. Preprocessing, visualization, training process **jupyter notebooks** under `./z_model_development`
+1. The project **source code** under `src/` and **unit tests** under `tests/`
+2. Preprocessing, visualization, training process **jupyter notebooks** under `z_model_development/`
 3. A **dockerfile** and **run** instructions in `README.md` last section
-4. An **api documentation** `./api_documentation.md` or run the service and check the **FastAPI auto-gen** doc
-5. **Bonus** task's conceptual implementations, **design diagram** under `./z-bonus`
+4. An **api documentation** `api_documentation.md` or run the service and check the **FastAPI auto-gen** doc
+5. **Bonus** task's conceptual implementations, **design diagram** under `z-bonus/`
 6. **Model's parameter** were uploaded to HuggingFace: [https://huggingface.co/protostarss](https://huggingface.co/protostarss)
-7. **Model evaluation** and test via endpoints service level on another open dataset, under `./z_model_evaluation/eval.ipynb`
+7. **Model evaluation** and test via endpoints service level on another open dataset, under `z_model_evaluation/eval.ipynb`
 
 Because the task itself is relatively straightforward, I took the initiative to build a more robust and complete system to compensate that. As a result, the number of files in this project increased.  
-For the convenience of reviewing process, I’ve wrote a description file to cover all the important points across these files in the project, please refer `./review_guideline.md.`
+For the convenience of reviewing process, I’ve wrote a description file to cover all the important points across these files in the project, please refer `review_guideline.md.`
 
 # Approach
 
