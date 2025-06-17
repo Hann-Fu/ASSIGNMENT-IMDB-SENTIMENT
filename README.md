@@ -87,7 +87,7 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
 
 10. **LLM Approach**
 
-    - Implement a LangChain LLM approach with structured output. Add endpoints to the API and test carefully.
+    - Implement a LangChain LLM approach with structured output. Add endpoints to the API and test.
 
 11. **Public Data Collection & Testing & Evaluation**
 
