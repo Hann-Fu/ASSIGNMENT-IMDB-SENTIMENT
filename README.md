@@ -15,7 +15,6 @@ The project is implemented using Python, Scikit-learn, PyTorch, LangChain, and F
 6. **Model's parameter** were uploaded to HuggingFace: [https://huggingface.co/protostarss](https://huggingface.co/protostarss)
 7. **Model evaluation** and test via endpoints service level on another open dataset, under `z_model_evaluation/eval.ipynb`
 
-Because the task itself is relatively straightforward, I took the initiative to build a more robust and complete system to compensate that. As a result, the number of files in this project increased.  
 For the convenience of reviewing process, I’ve wrote a description file to cover all the important points across these files in the project, please refer `review_guideline.md.`
 
 # Approach
