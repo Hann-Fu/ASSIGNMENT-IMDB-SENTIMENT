@@ -6,13 +6,13 @@ This project provide 3 restful endpoints with different approaches(TF-IDF, Bert,
 The project is implemented using Python, Scikit-learn, PyTorch, LangChain, and FastAPI, with containerization via Docker.
 
 **Deliverables:**   
-1. The project **source code** under ./src and **unit tests** under ./tests      
-2. Preprocessing, visualization, training process **jupyter notebooks** under ./z_model_development  
+1. The project **source code** under ./src and **unit tests** under <u>./tests</u>      
+2. Preprocessing, visualization, training process **jupyter notebooks** under <u>./z_model_development</u>  
 3. A **dockerfile** and **run** instructions in README.md last section  
 4. An **api documentation** ./api_documentation.md (Or run the service and check the **FastAPI auto-gen** doc.)
-5. **Bonus** task's conceptual implementations, **design diagram** under ./z-bonus  
+5. **Bonus** task's conceptual implementations, **design diagram** under <u>./z-bonus</u>  
 6. **Model's parameter** were uploaded to HuggingFace (https://huggingface.co/protostarss)  
-7. **Model evaluation** and test via endpoints(service level) on another open dataset, under ./z_model_evaluation/eval.ipynb  
+7. **Model evaluation** and test via endpoints(service level) on another open dataset, under <u>./z_model_evaluation/eval.ipynb</u>  
 
 Because the task itself is relatively straightforward, I took the initiative to build a more robust and complete system to compensate that. As a result, the number of files in this project increased.  
 For the convenience of reviewing process, I’ve wrote a description file to cover all the important points across these files in the project, please refer **./review_guideline.md.**
