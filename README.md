@@ -13,7 +13,7 @@ The project is implemented using Python, Scikit-learn, PyTorch, LangChain, and F
 4. An **api documentation** `api_documentation.md` or run the service and check the **FastAPI auto-gen** doc
 5. **Bonus** task's conceptual implementations, **design diagram** under `z-bonus/`
 6. **Model's parameter** were uploaded to HuggingFace: [https://huggingface.co/protostarss](https://huggingface.co/protostarss)
-7. **Model evaluation** and test via endpoints service level on another open dataset, under `z_model_evaluation/eval.ipynb`
+7. **Model evaluation** and test via endpoints(service level) on another open dataset, under `z_model_evaluation/eval.ipynb`
 
 For the convenience of reviewing process, I’ve wrote a description file to cover all the important points across these files in the project, please refer `review_guideline.md.`
 
@@ -109,7 +109,7 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
 
 ## Build and Run Instructions
 
-1. **Add a .env file according to .env.template, fill the openai api key(optional)**
+1. **Add a `.env` file according to `.env.template`, fill the openai api key(optional)**
 
 2. **Navigate to the project root directory** (where the Dockerfile is located):
    ```bash
