@@ -48,7 +48,7 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
 
    - Do some online research first. Get a rough idea of potential vectorizer (BoW, TF-IDF) and models (LR, SVM, RF) and confirm suitable metrics (Accuracy, F1-score, ROC-AUC).
 
-2. **Baseline ML Model**
+2. **Baseline ML Model Selection**
 
    - Start with a simple approach: TF-IDF feature extraction + Logistic Regression.
 
@@ -66,7 +66,6 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
 
 6. **Baseline Model Training and Evaluation**
 
-   - Compare the different vectorizer and models, confirm to use TF-IDF+LR as the baseline solution.
    - Train the baseline model and evaluate it with chosen metrics.
 
 7. **Error Analysis**
