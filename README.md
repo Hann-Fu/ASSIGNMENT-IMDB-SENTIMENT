@@ -94,9 +94,9 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
     - Evaluate BERT and Baseline model approaches with this new data through endpoint.
     - Write a short report about the performance, latency, consideration and trade off.
 
-12. **Model Degradation and Data Drift Slide**
+12. **Model Degradation, Data Drift Detection, Retrain and Redeploy**
 
-    - Design and create clear slides describing model degradation and data drift strategies, including detailed descriptions and diagrams.
+    -  Design the system and draw a diagram, and implement the embeddings based data drift detection(Conceptual level).
 
 
 # How to run the service
