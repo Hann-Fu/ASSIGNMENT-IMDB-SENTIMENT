@@ -1,10 +1,10 @@
 ## Answer of Bonus Task
 
 **Solution design diagram:**  
-Please refer **Design Diagram.png** under current folder.
+Please refer `Design Diagram.png` under current folder.
 
 **Data drift detection implementation:**  
-Please refer **data_drift_implementation/data_drift_embedding_approach.ipynb**
+Please refer `data_drift_implementation/data_drift_embedding_approach.ipynb`
 
 ### Degradation-Detection & Auto-Retrain Flow
 
