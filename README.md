@@ -46,7 +46,7 @@ For the convenience of reviewing process, I’ve wrote a description file to cov
 
 1. **Initial Research**
 
-   - Do some online research first. Get a rough idea of potential vectorizer (BoW, TF-IDF) and models (LR, SVM, RF) and confirm suitable metrics (Accuracy, F1-score, ROC-AUC).
+   - Do some online research first. Get a rough idea of potential vectorizer (BoW, TF-IDF) and models (LR, SVM, RF) and confirm suitable metrics (Accuracy/F1-score, ROC-AUC).
 
 2. **Baseline ML Model Selection**
 
